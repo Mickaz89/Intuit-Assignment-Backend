@@ -2,7 +2,7 @@ import { Injectable, Type } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { ProductModel } from './product.schema';
-import { CreateProductDto } from './create-product.dto';
+import { CreateProductDto } from './dtos/create-product.dto';
 
 export interface Product {
   name: string;
