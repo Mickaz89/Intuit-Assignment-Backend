@@ -22,14 +22,12 @@ To set up your environment variables for each environment:
 ## Running the app
 
 ```bash
-# development
-$ npm run start
+# local
+$ npm run start:local
 
-# watch mode
+# dev
 $ npm run start:dev
 
-# production mode
-$ npm run start:prod
 ```
 
 ## Test
